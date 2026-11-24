@@ -1,0 +1,14 @@
+{
+  "name": "shiftplan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Weekly staff rota with conflict and rest-period rules, overtime cost, publish lock and copy-week.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-force-exit test/*.test.js",
+    "e2e": "node docs/e2e.js"
+  }
+}
